@@ -1,5 +1,5 @@
 # FormularioAndroid_TrabalhoUniRitter-
-Este é um trabalho para a disciplina de dispositivos moveis da UniRitter
+Este é um trabalho antigo, feito para a disciplina de dispositivos moveis da UniRitter
 
 Para executar necessita do xampp, criar um banco "android" com o phpMyAdmin.
 As duas pastas devem ficar dentro do htdocs.
