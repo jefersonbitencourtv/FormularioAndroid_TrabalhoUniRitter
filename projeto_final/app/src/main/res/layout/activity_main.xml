@@ -1,0 +1,1179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp"
+        tools:ignore="MissingConstraints">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/colorFundo">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Inventário de personalidade"
+                android:textAlignment="center"
+                android:textColor="@android:color/holo_orange_dark"
+                android:textSize="19sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="ocupacional"
+                android:textAlignment="center"
+                android:textColor="@android:color/holo_orange_dark"
+                android:textSize="19sp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Preencha os campos abaixo para realizar sua atividade de autoconhecimento."
+                android:textAlignment="center"
+                android:textSize="19sp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Nome*"
+                android:layout_marginLeft="7dp"
+                android:textSize="19sp" />
+            <EditText
+                android:id="@+id/edt_nome"
+                android:layout_width="380dp"
+                android:layout_height="35dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="7dp"
+                android:background="@layout/my_edit_text_border" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Email*"
+                android:layout_marginLeft="7dp"
+                android:textSize="19sp" />
+            <EditText
+                android:id="@+id/edt_email"
+                android:layout_width="380dp"
+                android:layout_height="35dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="7dp"
+                android:background="@layout/my_edit_text_border" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Data de nascimento*"
+                android:layout_marginLeft="7dp"
+
+                android:textSize="19sp" />
+            <com.santalu.maskedittext.MaskEditText
+                android:id="@+id/edt_dtnascimento"
+                android:layout_width="380dp"
+                android:layout_height="35dp"
+                android:layout_marginTop="5dp"
+                android:digits="123456789"
+                app:met_mask="##/##/####"
+                android:hint="Apenas números"
+
+                android:layout_marginLeft="7dp"
+
+                android:background="@layout/my_edit_text_border" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Identidade (RG)"
+                android:layout_marginLeft="7dp"
+                android:textSize="19sp" />
+            <EditText
+                android:id="@+id/edt_rg"
+                android:layout_width="380dp"
+                android:layout_height="35dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="7dp"
+                android:digits="123456789"
+                android:hint="Apenas números"
+                android:background="@layout/my_edit_text_border" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Celular*"
+                android:layout_marginLeft="7dp"
+                android:textSize="19sp" />
+            <EditText
+                android:id="@+id/edt_celular"
+                android:layout_width="380dp"
+                android:layout_height="35dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="7dp"
+                android:digits="123456789"
+                android:hint="Apenas números"
+                android:background="@layout/my_edit_text_border" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Telefone Residencial*"
+                android:layout_marginLeft="7dp"
+                android:textSize="19sp" />
+            <EditText
+                android:id="@+id/edt_telefone"
+                android:layout_width="380dp"
+                android:layout_height="35dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="7dp"
+                android:digits="123456789"
+                android:hint="Apenas números"
+                android:background="@layout/my_edit_text_border" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Endereço*"
+                android:layout_marginLeft="7dp"
+                android:textSize="19sp" />
+            <EditText
+                android:id="@+id/edt_endereco"
+                android:layout_width="380dp"
+                android:layout_height="35dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="7dp"
+                android:background="@layout/my_edit_text_border" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Número*"
+                android:layout_marginLeft="7dp"
+                android:textSize="19sp" />
+            <EditText
+                android:id="@+id/edt_numero"
+                android:layout_width="380dp"
+                android:layout_height="35dp"
+                android:layout_marginTop="5dp"
+                android:digits="123456789"
+                android:hint="Apenas números"
+                android:layout_marginLeft="7dp"
+                android:background="@layout/my_edit_text_border" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Complemento"
+                android:layout_marginLeft="7dp"
+                android:textSize="19sp" />
+            <EditText
+                android:id="@+id/edt_complemento"
+                android:layout_width="380dp"
+                android:layout_height="35dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="7dp"
+                android:background="@layout/my_edit_text_border" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Bairro*"
+                android:layout_marginLeft="7dp"
+                android:textSize="19sp" />
+            <EditText
+                android:id="@+id/edt_bairro"
+                android:layout_width="380dp"
+                android:layout_height="35dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="7dp"
+                android:background="@layout/my_edit_text_border" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="7dp"
+                android:text="Estado*"
+                android:textSize="19sp" />
+            <Spinner
+                android:id="@+id/estado"
+                android:layout_width="380dp"
+                android:layout_height="35dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="15dp"
+                android:background="@layout/my_edit_text_border" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="7dp"
+                android:text="Cidade*"
+                android:textSize="19sp" />
+
+            <Spinner
+                android:id="@+id/nome_cidade"
+                android:layout_width="380dp"
+                android:layout_height="35dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="7dp"
+                android:background="@layout/my_edit_text_border" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="7dp"
+                android:text="Nome da sua escola*"
+                android:textSize="19sp" />
+
+            <Spinner
+                android:id="@+id/nome_escola"
+                android:layout_width="380dp"
+                android:layout_height="35dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="7dp"
+                android:background="@layout/my_edit_text_border" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="7dp"
+                android:text="Bairro da Escola*"
+                android:textSize="19sp" />
+
+            <EditText
+                android:id="@+id/edt_bairro_escola"
+                android:layout_width="380dp"
+                android:layout_height="35dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="7dp"
+                android:background="@layout/my_edit_text_border" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Ano*"
+                android:layout_marginLeft="7dp"
+                android:textSize="19sp" />
+            <Spinner
+                android:id="@+id/ano_escola"
+                android:layout_width="380dp"
+                android:layout_height="35dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="7dp"
+                android:background="@layout/my_edit_text_border" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Turma*"
+                android:layout_marginLeft="7dp"
+                android:textSize="19sp" />
+            <EditText
+                android:id="@+id/edt_turma"
+                android:layout_width="380dp"
+                android:layout_height="35dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="7dp"
+                android:background="@layout/my_edit_text_border" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="7dp"
+                android:text="Perfil da escola*"
+                android:textSize="19sp" />
+            <Spinner
+                android:id="@+id/perfil_escola"
+                android:layout_width="380dp"
+                android:layout_height="35dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="7dp"
+                android:background="@layout/my_edit_text_border" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="7dp"
+                android:textSize="19sp"
+                android:text="Sou bastante autêntico e digo aquilo que penso.*" />
+            <Spinner
+                android:id="@+id/autentico"
+                android:layout_width="380dp"
+                android:layout_height="35dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="7dp"
+                android:background="@layout/my_edit_text_border" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="7dp"
+                android:textSize="19sp"
+                android:text="Sou tímido, penso muito antes de me expor.*"
+                />
+            <Spinner
+                android:id="@+id/timido"
+                android:layout_width="380dp"
+                android:layout_height="35dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="7dp"
+                android:background="@layout/my_edit_text_border" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="7dp"
+                android:textSize="19sp"
+                android:text="Questões intelectuais profundas não me interessam.*" />
+            <Spinner
+                android:id="@+id/intelectual"
+                android:layout_width="380dp"
+                android:layout_height="35dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="7dp"
+                android:background="@layout/my_edit_text_border" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="7dp"
+                android:textSize="19sp"
+                android:text="Sou persistente e não desisto até atingir meus objetivos.* "
+                 />
+            <Spinner
+                android:id="@+id/persistente"
+                android:layout_width="380dp"
+                android:layout_height="35dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="7dp"
+                android:background="@layout/my_edit_text_border" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="7dp"
+                android:textSize="19sp"
+                android:text="As pessoas podem contar comigo. Sou bastante estável em minhas ações.*"
+                 />
+            <Spinner
+                android:id="@+id/pessoas"
+                android:layout_width="380dp"
+                android:layout_height="35dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="7dp"
+                android:background="@layout/my_edit_text_border" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="7dp"
+                android:textSize="19sp"
+                android:text="Gosto de trabalhar com materiais, com as mãos, objetos e instrumentos.* "
+                />
+            <Spinner
+                android:id="@+id/trabalhar"
+                android:layout_width="380dp"
+                android:layout_height="35dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="7dp"
+                android:background="@layout/my_edit_text_border" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="7dp"
+                android:textSize="19sp"
+                android:text="Consigo aguentar por um bom tempo uma atividade física ou intelectual.*"
+                />
+            <Spinner
+                android:id="@+id/aguentar"
+                android:layout_width="380dp"
+                android:layout_height="35dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="7dp"
+                android:background="@layout/my_edit_text_border" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="7dp"
+                android:textSize="19sp"
+                android:text="Dou muito valor para o dinheiro.*"
+                 />
+            <Spinner
+                android:id="@+id/dinheiro"
+                android:layout_width="380dp"
+                android:layout_height="35dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="7dp"
+                android:background="@layout/my_edit_text_border" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="7dp"
+                android:text="Sei utilizar instrumentos e aparelhos eletrônicos.*"
+                android:textSize="19sp" />
+            <Spinner
+                android:id="@+id/instrumentos"
+                android:layout_width="380dp"
+                android:layout_height="35dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="7dp"
+                android:background="@layout/my_edit_text_border" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="7dp"
+                android:text="Aceito bem as regras, limites, ordens e o contexto no qual vivo.* "
+                android:textSize="19sp" />
+            <Spinner
+                android:id="@+id/aceito"
+                android:layout_width="380dp"
+                android:layout_height="35dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="7dp"
+                android:background="@layout/my_edit_text_border" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="7dp"
+                android:text="Gosto de observar, analisar e entender o modo como as coisas, a natureza ou as pessoas funcionam.*"
+                android:textSize="19sp" />
+            <Spinner
+                android:id="@+id/gosto"
+                android:layout_width="380dp"
+                android:layout_height="35dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="7dp"
+                android:background="@layout/my_edit_text_border" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="7dp"
+                android:text="Não sou muito impulsivo, penso antes de agir.*"
+                android:textSize="19sp" />
+            <Spinner
+                android:id="@+id/impulsivo"
+                android:layout_width="380dp"
+                android:layout_height="35dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="7dp"
+                android:background="@layout/my_edit_text_border" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="7dp"
+                android:text="Áreas como matemática ou ciências me atraem. Gosto de estudar um assunto a fundo.*"
+                android:textSize="19sp" />
+            <Spinner
+                android:id="@+id/areas"
+                android:layout_width="380dp"
+                android:layout_height="35dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="7dp"
+                android:background="@layout/my_edit_text_border" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="7dp"
+                android:text="Tenho facilidade para aprender.*"
+                android:textSize="19sp" />
+            <Spinner
+                android:id="@+id/aprender"
+                android:layout_width="380dp"
+                android:layout_height="35dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="7dp"
+                android:background="@layout/my_edit_text_border" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="7dp"
+                android:text="Sou racional para tomar uma decisão ou para decidir o melhor caminho a seguir.*"
+                android:textSize="19sp" />
+            <Spinner
+                android:id="@+id/racional"
+                android:layout_width="380dp"
+                android:layout_height="35dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="7dp"
+                android:background="@layout/my_edit_text_border" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="7dp"
+                android:text="sou muito organizado e detalhista.*"
+                android:textSize="19sp" />
+            <Spinner
+                android:id="@+id/organizado"
+                android:layout_width="380dp"
+                android:layout_height="35dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="7dp"
+                android:background="@layout/my_edit_text_border" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="7dp"
+                android:text="Sou capaz de dar respostas precisas sobre datas, valores e descrever bem determinada situação do passado.*"
+                android:textSize="19sp" />
+            <Spinner
+                android:id="@+id/capaz"
+                android:layout_width="380dp"
+                android:layout_height="35dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="7dp"
+                android:background="@layout/my_edit_text_border" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="7dp"
+                android:text="Tenho um grande senso crítico. As coisas sempre podem ser melhoradas.*"
+                android:textSize="19sp" />
+            <Spinner
+                android:id="@+id/senso"
+                android:layout_width="380dp"
+                android:layout_height="35dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="7dp"
+                android:background="@layout/my_edit_text_border" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="7dp"
+                android:text="Gosto de tomar minhas próprias decisões, mesmo que seja diferente do pensamento da maioria.*"
+                android:textSize="19sp" />
+            <Spinner
+                android:id="@+id/decisoes"
+                android:layout_width="380dp"
+                android:layout_height="35dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="7dp"
+                android:background="@layout/my_edit_text_border" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="7dp"
+                android:text="Tenho boa habilidade lógica ou matemática.*"
+                android:textSize="19sp" />
+            <Spinner
+                android:id="@+id/habilidade"
+                android:layout_width="380dp"
+                android:layout_height="35dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="7dp"
+                android:background="@layout/my_edit_text_border" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="7dp"
+                android:text="É difícil para mim aceitar regras, limites e algo que me é imposto.*"
+                android:textSize="19sp" />
+            <Spinner
+                android:id="@+id/aceitar"
+                android:layout_width="380dp"
+                android:layout_height="35dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="7dp"
+                android:background="@layout/my_edit_text_border" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="7dp"
+                android:text="Para mim, é fácil viver em um ambiente desorganizado e fazer as coisas sem uma lógica.*"
+                android:textSize="19sp" />
+            <Spinner
+                android:id="@+id/viver"
+                android:layout_width="380dp"
+                android:layout_height="35dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="7dp"
+                android:background="@layout/my_edit_text_border" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="7dp"
+                android:text="Sou muito sensível. Uso mais a emoção nas minhas decisões.*"
+                android:textSize="19sp" />
+            <Spinner
+                android:id="@+id/sensivel"
+                android:layout_width="380dp"
+                android:layout_height="35dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="7dp"
+                android:background="@layout/my_edit_text_border" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="7dp"
+                android:text="Sou uma pessoa idealista. Acredito que possamos construir um mundo melhor.*"
+                android:textSize="19sp" />
+            <Spinner
+                android:id="@+id/idealista"
+                android:layout_width="380dp"
+                android:layout_height="35dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="7dp"
+                android:background="@layout/my_edit_text_border" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="7dp"
+                android:text="Gosto de criar, inventar, idealizar e fantasiar.*"
+                android:textSize="19sp" />
+            <Spinner
+                android:id="@+id/criar"
+                android:layout_width="380dp"
+                android:layout_height="35dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="7dp"
+                android:background="@layout/my_edit_text_border" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="7dp"
+                android:text="Gosto de causar impacto, provocando, entretendo, seduzindo, encantando as pessoas.*"
+                android:textSize="19sp" />
+            <Spinner
+                android:id="@+id/causar"
+                android:layout_width="380dp"
+                android:layout_height="35dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="7dp"
+                android:background="@layout/my_edit_text_border" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="7dp"
+                android:text="Gosto de descobrir novas possibilidades para as coisas e situações da vida.*"
+                android:textSize="19sp" />
+            <Spinner
+                android:id="@+id/descobrir"
+                android:layout_width="380dp"
+                android:layout_height="35dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="7dp"
+                android:background="@layout/my_edit_text_border" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="7dp"
+                android:text="Muitas vezes não penso muito antes de tomar uma decisão, nem meço as consequências.*"
+                android:textSize="19sp" />
+            <Spinner
+                android:id="@+id/penso"
+                android:layout_width="380dp"
+                android:layout_height="35dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="7dp"
+                android:background="@layout/my_edit_text_border" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="7dp"
+                android:text="Gosto de me expressar, de representar ou de me mostrar em público.*"
+                android:textSize="19sp" />
+            <Spinner
+                android:id="@+id/expressar"
+                android:layout_width="380dp"
+                android:layout_height="35dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="7dp"
+                android:background="@layout/my_edit_text_border" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="7dp"
+                android:text="Sou responsável por minhas atitudes e decisões.*"
+                android:textSize="19sp" />
+            <Spinner
+                android:id="@+id/atitudes"
+                android:layout_width="380dp"
+                android:layout_height="35dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="7dp"
+                android:background="@layout/my_edit_text_border" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="7dp"
+                android:text="Gosto de liderar, de organizar ou de mobilizar um grupo em torno de uma causa ou ação.*"
+                android:textSize="19sp" />
+            <Spinner
+                android:id="@+id/liderar"
+                android:layout_width="380dp"
+                android:layout_height="35dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="7dp"
+                android:background="@layout/my_edit_text_border" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="7dp"
+                android:text="Gosto de ajudar e colaborar com os outros. Sou leal e gosto de fazer o bem.* "
+                android:textSize="19sp" />
+            <Spinner
+                android:id="@+id/colaborar"
+                android:layout_width="380dp"
+                android:layout_height="35dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="7dp"
+                android:background="@layout/my_edit_text_border" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="7dp"
+                android:text="Uso a emoção e a sensibilidade para tomar decisões.*"
+                android:textSize="19sp" />
+            <Spinner
+                android:id="@+id/sensibilidade"
+                android:layout_width="380dp"
+                android:layout_height="35dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="7dp"
+                android:background="@layout/my_edit_text_border" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="7dp"
+                android:text="Em geral sou uma pessoa agradável e fácil de lidar.*"
+                android:textSize="19sp" />
+            <Spinner
+                android:id="@+id/agradavel"
+                android:layout_width="380dp"
+                android:layout_height="35dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="7dp"
+                android:background="@layout/my_edit_text_border" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="7dp"
+                android:text="Sou idealista e quero mais da vida.*"
+                android:textSize="19sp" />
+            <Spinner
+                android:id="@+id/vida"
+                android:layout_width="380dp"
+                android:layout_height="35dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="7dp"
+                android:background="@layout/my_edit_text_border" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="7dp"
+                android:text="Questões éticas, de justiça ou bem-estar comum são importantes para mim.*"
+                android:textSize="19sp" />
+            <Spinner
+                android:id="@+id/eticas"
+                android:layout_width="380dp"
+                android:layout_height="35dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="7dp"
+                android:background="@layout/my_edit_text_border" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="7dp"
+                android:text="Sou responsável. Podem contar comigo porque sempre correspondo ao esperado.*"
+                android:textSize="19sp" />
+            <Spinner
+                android:id="@+id/responsavel"
+                android:layout_width="380dp"
+                android:layout_height="35dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="7dp"
+                android:background="@layout/my_edit_text_border" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="7dp"
+                android:text="Costumo me dedicar a pessoas, ou a causas, 'vestindo a camisa' de um grupo ou clube que eu acredite.*"
+                android:textSize="19sp" />
+            <Spinner
+                android:id="@+id/dedicar"
+                android:layout_width="380dp"
+                android:layout_height="35dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="7dp"
+                android:background="@layout/my_edit_text_border" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="7dp"
+                android:text="No geral, me relaciono bem com os outros. Tenho facilidade para dialogar.*"
+                android:textSize="19sp" />
+            <Spinner
+                android:id="@+id/relaciono"
+                android:layout_width="380dp"
+                android:layout_height="35dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="7dp"
+                android:background="@layout/my_edit_text_border" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="7dp"
+                android:text="Gosto de ajudar, ensinar, cuidar, de alguma forma quero ser importante para os outros.*"
+                android:textSize="19sp" />
+            <Spinner
+                android:id="@+id/ensinar"
+                android:layout_width="380dp"
+                android:layout_height="35dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="7dp"
+                android:background="@layout/my_edit_text_border" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="7dp"
+                android:text="Sou firme e confiante em minhas decisões e não preciso de palpites.*"
+                android:textSize="19sp" />
+            <Spinner
+                android:id="@+id/firme"
+                android:layout_width="380dp"
+                android:layout_height="35dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="7dp"
+                android:background="@layout/my_edit_text_border" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="7dp"
+                android:text="Muitas vezes consigo convencer as pessoas sobre determinado ponto de vista.*"
+                android:textSize="19sp" />
+            <Spinner
+                android:id="@+id/convencer"
+                android:layout_width="380dp"
+                android:layout_height="35dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="7dp"
+                android:background="@layout/my_edit_text_border" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="7dp"
+                android:text="Sou uma pessoa motivada, autoincentivada, otimista.*"
+                android:textSize="19sp" />
+            <Spinner
+                android:id="@+id/motivada"
+                android:layout_width="380dp"
+                android:layout_height="35dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="7dp"
+                android:background="@layout/my_edit_text_border" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="7dp"
+                android:text="Falo muito. Não desisto facilmente de uma argumentação.*"
+                android:textSize="19sp" />
+            <Spinner
+                android:id="@+id/desisto"
+                android:layout_width="380dp"
+                android:layout_height="35dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="7dp"
+                android:background="@layout/my_edit_text_border" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="7dp"
+                android:text="Dou muito valor aos bens materiais. Gosto de comprar e, às vezes, até de demonstrar aos outros minhas conquistas, meus bens materiais, minha sabedoria e meus talentos.*"
+                android:textSize="19sp" />
+            <Spinner
+                android:id="@+id/bens"
+                android:layout_width="380dp"
+                android:layout_height="35dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="7dp"
+                android:background="@layout/my_edit_text_border" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="7dp"
+                android:text="Tomo decisões rapidamente. Ajo sem refletir muito. Chego a ser impulsivo.*"
+                android:textSize="19sp" />
+            <Spinner
+                android:id="@+id/rapidamente"
+                android:layout_width="380dp"
+                android:layout_height="35dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="7dp"
+                android:background="@layout/my_edit_text_border" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="7dp"
+                android:text="Gosto de estar no meio das pessoas, especialmente para mostrar a elas o modo como penso.*"
+                android:textSize="19sp" />
+            <Spinner
+                android:id="@+id/especialmente"
+                android:layout_width="380dp"
+                android:layout_height="35dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="7dp"
+                android:background="@layout/my_edit_text_border" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="7dp"
+                android:text="Gosto muito de aventuras, de me arriscar e de desafios.*"
+                android:textSize="19sp" />
+            <Spinner
+                android:id="@+id/aventuras"
+                android:layout_width="380dp"
+                android:layout_height="35dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="7dp"
+                android:background="@layout/my_edit_text_border" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="7dp"
+                android:text="Estou sempre procurando novas oportunidades, novos caminhos a seguir.* "
+                android:textSize="19sp" />
+            <Spinner
+                android:id="@+id/oportunidades"
+                android:layout_width="380dp"
+                android:layout_height="35dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="7dp"
+                android:background="@layout/my_edit_text_border" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="7dp"
+                android:text="Prefiro ser o dono de um negócio do que trabalhar para alguém.*"
+                android:textSize="19sp" />
+            <Spinner
+                android:id="@+id/prefiro"
+                android:layout_width="380dp"
+                android:layout_height="35dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="7dp"
+                android:background="@layout/my_edit_text_border" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="7dp"
+                android:text="Aceito bem as regras e o contexto no qual vivo. Gosto de limites claros.*"
+                android:textSize="19sp" />
+            <Spinner
+                android:id="@+id/regras"
+                android:layout_width="380dp"
+                android:layout_height="35dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="7dp"
+                android:background="@layout/my_edit_text_border" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="7dp"
+                android:text="Sou introvertido, me resguardo e não me exponho muito.*"
+                android:textSize="19sp" />
+            <Spinner
+                android:id="@+id/introvertido"
+                android:layout_width="380dp"
+                android:layout_height="35dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="7dp"
+                android:background="@layout/my_edit_text_border" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="7dp"
+                android:text="Cuido de minhas coisas e gosto de conservá-las.*"
+                android:textSize="19sp" />
+            <Spinner
+                android:id="@+id/cuido"
+                android:layout_width="380dp"
+                android:layout_height="35dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="7dp"
+                android:background="@layout/my_edit_text_border" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="7dp"
+                android:text="Sou bem calmo e tenho bom equilíbrio emocional.* "
+                android:textSize="19sp" />
+            <Spinner
+                android:id="@+id/calmo"
+                android:layout_width="380dp"
+                android:layout_height="35dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="7dp"
+                android:background="@layout/my_edit_text_border" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="7dp"
+                android:text="Prefiro ter um plano de ação, uma rotina definida de trabalho.*"
+                android:textSize="19sp" />
+            <Spinner
+                android:id="@+id/plano"
+                android:layout_width="380dp"
+                android:layout_height="35dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="7dp"
+                android:background="@layout/my_edit_text_border" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="7dp"
+                android:text="Sou um tipo de pessoa estável, confiável, adequada á realidade.*"
+                android:textSize="19sp" />
+            <Spinner
+                android:id="@+id/estavel"
+                android:layout_width="380dp"
+                android:layout_height="35dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="7dp"
+                android:background="@layout/my_edit_text_border" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="7dp"
+                android:text="Respeito a ética, guardo segredos, cumpro com meus combinados.* "
+                android:textSize="19sp" />
+            <Spinner
+                android:id="@+id/respeito"
+                android:layout_width="380dp"
+                android:layout_height="35dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="7dp"
+                android:background="@layout/my_edit_text_border" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="7dp"
+                android:text="Sou muito organizado e detalhista nas coisas. Eficácia é muito importante para mim.*  "
+                android:textSize="19sp" />
+            <Spinner
+                android:id="@+id/detalhista"
+                android:layout_width="380dp"
+                android:layout_height="35dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="7dp"
+                android:background="@layout/my_edit_text_border" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="7dp"
+                android:text="Eu vou até o fim em meus objetivos. Não desisto até atingi-los.*"
+                android:textSize="19sp" />
+            <Spinner
+                android:id="@+id/objetivos"
+                android:layout_width="380dp"
+                android:layout_height="35dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="7dp"
+                android:background="@layout/my_edit_text_border" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="7dp"
+                android:text="Gosto de satisfazer os outros em relação aquilo que me pedem.*"
+                android:textSize="19sp" />
+            <Spinner
+                android:id="@+id/satisfazer"
+                android:layout_width="380dp"
+                android:layout_height="35dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="7dp"
+                android:background="@layout/my_edit_text_border" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="10 + 4 = ? *"
+                android:layout_marginLeft="7dp"
+                android:textSize="19sp" />
+            <EditText
+                android:id="@+id/edt_soma"
+                android:layout_width="380dp"
+                android:layout_height="35dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="7dp"
+                android:digits="123456789"
+                android:background="@layout/my_edit_text_border"  />
+            <Button
+                android:id="@+id/btn_enviar"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:text="Enviar"
+                android:onClick="enviarDados"/>
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

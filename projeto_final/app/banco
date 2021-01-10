@@ -1,0 +1,30 @@
+CREATE DATABASE android;
+
+CREATE TABLE aluno(
+id INT AUTO_INCREMENT,
+nome VARCHAR(20) NOT NULL,
+email VARCHAR(20) NOT NULL,
+datanascimento varchar(15)  NOT null,
+identidade     int(60)  NOT null,
+celular        int(60)  NOT null,
+telefone       int(60)  NOT null,
+endereco       varchar(250) NOT null,
+numero         int(60)  NOT null,
+complemento    varchar(100) NOT null,
+bairro         varchar(100) NOT null,
+estado         varchar(100) NOT null,
+cidade         varchar(100) NOT null,
+nome_escola    varchar(255) NOT null,
+bairro_escola  varchar(255) NOT null,
+ano            varchar(40)  NOT null,
+turma          varchar(40)  NOT null,
+perfil_escola  varchar(50)  NOT null,
+realistico      FLOAT(20) NOT NULL,
+investigativo FLOAT(20) NOT NULL,
+empreendedor FLOAT(20) NOT NULL,
+convencional FLOAT(20) NOT NULL,
+artistico FLOAT(20) NOT NULL,
+social FLOAT(20) NOT NULL,
+PRIMARY KEY(id)
+) ;
+

@@ -1,0 +1,482 @@
+<resources>
+    <string name="app_name">projeto_final</string>
+    <string-array name="estado">
+        <item>"Selecione"</item>
+        <item>"AC"</item>
+        <item>"AL"</item>
+        <item>"AP"</item>
+        <item>"AM"</item>
+        <item>"BA"</item>
+        <item>"CE"</item>
+        <item>"DF"</item>
+        <item>"ES"</item>
+        <item>"GO"</item>
+        <item>"MA"</item>
+        <item>"MT"</item>
+        <item>"MS"</item>
+        <item>"MG"</item>
+        <item>"PA"</item>
+        <item>"PB"</item>
+        <item>"PR"</item>
+        <item>"PE"</item>
+        <item>"PI"</item>
+        <item>"RJ"</item>
+        <item>"RN"</item>
+        <item>"RS"</item>
+        <item>"RO"</item>
+        <item>"RR"</item>
+        <item>"SC"</item>
+        <item>"SP"</item>
+        <item>"SE"</item>
+        <item>"TO"</item>
+    </string-array>
+    <string-array name="ano_escola">
+        <item>"Selecione"</item>
+        <item>"1° Ano"</item>
+        <item>"2° Ano"</item>
+        <item>"3° Ano"</item>
+        <item>"Outros"</item>
+    </string-array>
+    <string-array name="nome_cidade">
+        <item>"Selecione"</item>
+        <item>"Porto Alegre"</item>
+        <item>"Canoas"</item>
+        <item>"Esteio"</item>
+        <item>"Outros"</item>
+    </string-array>
+
+    <string-array name="nome_escola">
+        <item>"Selecione"</item>
+        <item>"Uniritter"</item>
+        <item>"Fadergs"</item>
+        <item>"PUC"</item>
+        <item>"Outros"</item>
+    </string-array>
+
+    <string-array name="perfil_escola">
+        <item>"Selecione"</item>
+        <item>"Particula"</item>
+        <item>"Pública"</item>
+        <item>"Mista"</item>
+    </string-array>
+    <string-array name="autentico">
+        <item>"Selecione"</item>
+        <item>"0 - Nada"</item>
+        <item>"1 - As vezes"</item>
+        <item>"2 - Frequentemente"</item>
+        <item>"3 - Sou eu!"</item>
+    </string-array>
+    <string-array name="timido">
+        <item>"Selecione"</item>
+        <item>"0 - Nada"</item>
+        <item>"1 - As vezes"</item>
+        <item>"2 - Frequentemente"</item>
+        <item>"3 - Sou eu!"</item>
+    </string-array>
+    <string-array name="intelectual">
+        <item>"Selecione"</item>
+        <item>"0 - Nada"</item>
+        <item>"1 - As vezes"</item>
+        <item>"2 - Frequentemente"</item>
+        <item>"3 - Sou eu!"</item>
+    </string-array>
+    <string-array name="persistente">
+        <item>"Selecione"</item>
+        <item>"0 - Nada"</item>
+        <item>"1 - As vezes"</item>
+        <item>"2 - Frequentemente"</item>
+        <item>"3 - Sou eu!"</item>
+    </string-array>
+    <string-array name="pessoas">
+        <item>"Selecione"</item>
+        <item>"0 - Nada"</item>
+        <item>"1 - As vezes"</item>
+        <item>"2 - Frequentemente"</item>
+        <item>"3 - Sou eu!"</item>
+    </string-array>
+    <string-array name="trabalhar">
+        <item>"Selecione"</item>
+        <item>"0 - Nada"</item>
+        <item>"1 - As vezes"</item>
+        <item>"2 - Frequentemente"</item>
+        <item>"3 - Sou eu!"</item>
+    </string-array>
+    <string-array name="aguentar">
+        <item>"Selecione"</item>
+        <item>"0 - Nada"</item>
+        <item>"1 - As vezes"</item>
+        <item>"2 - Frequentemente"</item>
+        <item>"3 - Sou eu!"</item>
+    </string-array>
+    <string-array name="dinheiro">
+        <item>"Selecione"</item>
+        <item>"0 - Nada"</item>
+        <item>"1 - As vezes"</item>
+        <item>"2 - Frequentemente"</item>
+        <item>"3 - Sou eu!"</item>
+    </string-array>
+    <string-array name="instrumentos">
+        <item>"Selecione"</item>
+        <item>"0 - Nada"</item>
+        <item>"1 - As vezes"</item>
+        <item>"2 - Frequentemente"</item>
+        <item>"3 - Sou eu!"</item>
+    </string-array>
+    <string-array name="aceito">
+        <item>"Selecione"</item>
+        <item>"0 - Nada"</item>
+        <item>"1 - As vezes"</item>
+        <item>"2 - Frequentemente"</item>
+        <item>"3 - Sou eu!"</item>
+    </string-array>
+    <string-array name="gosto">
+        <item>"Selecione"</item>
+        <item>"0 - Nada"</item>
+        <item>"1 - As vezes"</item>
+        <item>"2 - Frequentemente"</item>
+        <item>"3 - Sou eu!"</item>
+    </string-array>
+    <string-array name="impulsivo">
+        <item>"Selecione"</item>
+        <item>"0 - Nada"</item>
+        <item>"1 - As vezes"</item>
+        <item>"2 - Frequentemente"</item>
+        <item>"3 - Sou eu!"</item>
+    </string-array>
+    <string-array name="areas">
+        <item>"Selecione"</item>
+        <item>"0 - Nada"</item>
+        <item>"1 - As vezes"</item>
+        <item>"2 - Frequentemente"</item>
+        <item>"3 - Sou eu!"</item>
+    </string-array>
+    <string-array name="aprender">
+        <item>"Selecione"</item>
+        <item>"0 - Nada"</item>
+        <item>"1 - As vezes"</item>
+        <item>"2 - Frequentemente"</item>
+        <item>"3 - Sou eu!"</item>
+    </string-array>
+    <string-array name="racional">
+        <item>"Selecione"</item>
+        <item>"0 - Nada"</item>
+        <item>"1 - As vezes"</item>
+        <item>"2 - Frequentemente"</item>
+        <item>"3 - Sou eu!"</item>
+    </string-array>
+    <string-array name="organizado">
+        <item>"Selecione"</item>
+        <item>"0 - Nada"</item>
+        <item>"1 - As vezes"</item>
+        <item>"2 - Frequentemente"</item>
+        <item>"3 - Sou eu!"</item>
+    </string-array>
+    <string-array name="capaz">
+        <item>"Selecione"</item>
+        <item>"0 - Nada"</item>
+        <item>"1 - As vezes"</item>
+        <item>"2 - Frequentemente"</item>
+        <item>"3 - Sou eu!"</item>
+    </string-array>
+    <string-array name="senso">
+        <item>"Selecione"</item>
+        <item>"0 - Nada"</item>
+        <item>"1 - As vezes"</item>
+        <item>"2 - Frequentemente"</item>
+        <item>"3 - Sou eu!"</item>
+    </string-array>
+    <string-array name="decisoes">
+        <item>"Selecione"</item>
+        <item>"0 - Nada"</item>
+        <item>"1 - As vezes"</item>
+        <item>"2 - Frequentemente"</item>
+        <item>"3 - Sou eu!"</item>
+    </string-array>
+    <string-array name="habilidade">
+        <item>"Selecione"</item>
+        <item>"0 - Nada"</item>
+        <item>"1 - As vezes"</item>
+        <item>"2 - Frequentemente"</item>
+        <item>"3 - Sou eu!"</item>
+    </string-array>
+    <string-array name="aceitar">
+        <item>"Selecione"</item>
+        <item>"0 - Nada"</item>
+        <item>"1 - As vezes"</item>
+        <item>"2 - Frequentemente"</item>
+        <item>"3 - Sou eu!"</item>
+    </string-array>
+    <string-array name="viver">
+        <item>"Selecione"</item>
+        <item>"0 - Nada"</item>
+        <item>"1 - As vezes"</item>
+        <item>"2 - Frequentemente"</item>
+        <item>"3 - Sou eu!"</item>
+    </string-array>
+    <string-array name="sensivel">
+        <item>"Selecione"</item>
+        <item>"0 - Nada"</item>
+        <item>"1 - As vezes"</item>
+        <item>"2 - Frequentemente"</item>
+        <item>"3 - Sou eu!"</item>
+    </string-array>
+    <string-array name="idealista">
+        <item>"Selecione"</item>
+        <item>"0 - Nada"</item>
+        <item>"1 - As vezes"</item>
+        <item>"2 - Frequentemente"</item>
+        <item>"3 - Sou eu!"</item>
+    </string-array>
+    <string-array name="criar">
+        <item>"Selecione"</item>
+        <item>"0 - Nada"</item>
+        <item>"1 - As vezes"</item>
+        <item>"2 - Frequentemente"</item>
+        <item>"3 - Sou eu!"</item>
+    </string-array>
+    <string-array name="causar">
+        <item>"Selecione"</item>
+        <item>"0 - Nada"</item>
+        <item>"1 - As vezes"</item>
+        <item>"2 - Frequentemente"</item>
+        <item>"3 - Sou eu!"</item>
+    </string-array>
+    <string-array name="descobrir">
+        <item>"Selecione"</item>
+        <item>"0 - Nada"</item>
+        <item>"1 - As vezes"</item>
+        <item>"2 - Frequentemente"</item>
+        <item>"3 - Sou eu!"</item>
+    </string-array>
+    <string-array name="penso">
+        <item>"Selecione"</item>
+        <item>"0 - Nada"</item>
+        <item>"1 - As vezes"</item>
+        <item>"2 - Frequentemente"</item>
+        <item>"3 - Sou eu!"</item>
+    </string-array>
+    <string-array name="expressar">
+        <item>"Selecione"</item>
+        <item>"0 - Nada"</item>
+        <item>"1 - As vezes"</item>
+        <item>"2 - Frequentemente"</item>
+        <item>"3 - Sou eu!"</item>
+    </string-array>
+    <string-array name="atitudes">
+        <item>"Selecione"</item>
+        <item>"0 - Nada"</item>
+        <item>"1 - As vezes"</item>
+        <item>"2 - Frequentemente"</item>
+        <item>"3 - Sou eu!"</item>
+    </string-array>
+    <string-array name="liderar">
+        <item>"Selecione"</item>
+        <item>"0 - Nada"</item>
+        <item>"1 - As vezes"</item>
+        <item>"2 - Frequentemente"</item>
+        <item>"3 - Sou eu!"</item>
+    </string-array>
+    <string-array name="colaborar">
+        <item>"Selecione"</item>
+        <item>"0 - Nada"</item>
+        <item>"1 - As vezes"</item>
+        <item>"2 - Frequentemente"</item>
+        <item>"3 - Sou eu!"</item>
+    </string-array>
+    <string-array name="sensibilidade">
+        <item>"Selecione"</item>
+        <item>"0 - Nada"</item>
+        <item>"1 - As vezes"</item>
+        <item>"2 - Frequentemente"</item>
+        <item>"3 - Sou eu!"</item>
+    </string-array>
+    <string-array name="agradavel">
+        <item>"Selecione"</item>
+        <item>"0 - Nada"</item>
+        <item>"1 - As vezes"</item>
+        <item>"2 - Frequentemente"</item>
+        <item>"3 - Sou eu!"</item>
+    </string-array>
+    <string-array name="vida">
+        <item>"Selecione"</item>
+        <item>"0 - Nada"</item>
+        <item>"1 - As vezes"</item>
+        <item>"2 - Frequentemente"</item>
+        <item>"3 - Sou eu!"</item>
+    </string-array>
+    <string-array name="eticas">
+        <item>"Selecione"</item>
+        <item>"0 - Nada"</item>
+        <item>"1 - As vezes"</item>
+        <item>"2 - Frequentemente"</item>
+        <item>"3 - Sou eu!"</item>
+    </string-array>
+    <string-array name="responsavel">
+        <item>"Selecione"</item>
+        <item>"0 - Nada"</item>
+        <item>"1 - As vezes"</item>
+        <item>"2 - Frequentemente"</item>
+        <item>"3 - Sou eu!"</item>
+    </string-array>
+    <string-array name="dedicar">
+        <item>"Selecione"</item>
+        <item>"0 - Nada"</item>
+        <item>"1 - As vezes"</item>
+        <item>"2 - Frequentemente"</item>
+        <item>"3 - Sou eu!"</item>
+    </string-array>
+    <string-array name="relaciono">
+        <item>"Selecione"</item>
+        <item>"0 - Nada"</item>
+        <item>"1 - As vezes"</item>
+        <item>"2 - Frequentemente"</item>
+        <item>"3 - Sou eu!"</item>
+    </string-array>
+    <string-array name="ensinar">
+        <item>"Selecione"</item>
+        <item>"0 - Nada"</item>
+        <item>"1 - As vezes"</item>
+        <item>"2 - Frequentemente"</item>
+        <item>"3 - Sou eu!"</item>
+    </string-array>
+    <string-array name="firme">
+        <item>"Selecione"</item>
+        <item>"0 - Nada"</item>
+        <item>"1 - As vezes"</item>
+        <item>"2 - Frequentemente"</item>
+        <item>"3 - Sou eu!"</item>
+    </string-array>
+    <string-array name="convencer">
+        <item>"Selecione"</item>
+        <item>"0 - Nada"</item>
+        <item>"1 - As vezes"</item>
+        <item>"2 - Frequentemente"</item>
+        <item>"3 - Sou eu!"</item>
+    </string-array>
+    <string-array name="motivada">
+        <item>"Selecione"</item>
+        <item>"0 - Nada"</item>
+        <item>"1 - As vezes"</item>
+        <item>"2 - Frequentemente"</item>
+        <item>"3 - Sou eu!"</item>
+    </string-array>
+    <string-array name="desisto">
+        <item>"Selecione"</item>
+        <item>"0 - Nada"</item>
+        <item>"1 - As vezes"</item>
+        <item>"2 - Frequentemente"</item>
+        <item>"3 - Sou eu!"</item>
+    </string-array>
+    <string-array name="bens">
+        <item>"Selecione"</item>
+        <item>"0 - Nada"</item>
+        <item>"1 - As vezes"</item>
+        <item>"2 - Frequentemente"</item>
+        <item>"3 - Sou eu!"</item>
+    </string-array>
+    <string-array name="rapidamente">
+        <item>"Selecione"</item>
+        <item>"0 - Nada"</item>
+        <item>"1 - As vezes"</item>
+        <item>"2 - Frequentemente"</item>
+        <item>"3 - Sou eu!"</item>
+    </string-array>
+    <string-array name="especialmente">
+        <item>"Selecione"</item>
+        <item>"0 - Nada"</item>
+        <item>"1 - As vezes"</item>
+        <item>"2 - Frequentemente"</item>
+        <item>"3 - Sou eu!"</item>
+    </string-array>
+    <string-array name="aventuras">
+        <item>"Selecione"</item>
+        <item>"0 - Nada"</item>
+        <item>"1 - As vezes"</item>
+        <item>"2 - Frequentemente"</item>
+        <item>"3 - Sou eu!"</item>
+    </string-array>
+    <string-array name="oportunidades">
+        <item>"Selecione"</item>
+        <item>"0 - Nada"</item>
+        <item>"1 - As vezes"</item>
+        <item>"2 - Frequentemente"</item>
+        <item>"3 - Sou eu!"</item>
+    </string-array>
+    <string-array name="prefiro">
+        <item>"Selecione"</item>
+        <item>"0 - Nada"</item>
+        <item>"1 - As vezes"</item>
+        <item>"2 - Frequentemente"</item>
+        <item>"3 - Sou eu!"</item>
+    </string-array>
+    <string-array name="regras">
+        <item>"Selecione"</item>
+        <item>"0 - Nada"</item>
+        <item>"1 - As vezes"</item>
+        <item>"2 - Frequentemente"</item>
+        <item>"3 - Sou eu!"</item>
+    </string-array>
+    <string-array name="introvertido">
+        <item>"Selecione"</item>
+        <item>"0 - Nada"</item>
+        <item>"1 - As vezes"</item>
+        <item>"2 - Frequentemente"</item>
+        <item>"3 - Sou eu!"</item>
+    </string-array>
+    <string-array name="cuido">
+        <item>"Selecione"</item>
+        <item>"0 - Nada"</item>
+        <item>"1 - As vezes"</item>
+        <item>"2 - Frequentemente"</item>
+        <item>"3 - Sou eu!"</item>
+    </string-array>
+    <string-array name="calmo">
+        <item>"Selecione"</item>
+        <item>"0 - Nada"</item>
+        <item>"1 - As vezes"</item>
+        <item>"2 - Frequentemente"</item>
+        <item>"3 - Sou eu!"</item>
+    </string-array>
+    <string-array name="plano">
+        <item>"Selecione"</item>
+        <item>"0 - Nada"</item>
+        <item>"1 - As vezes"</item>
+        <item>"2 - Frequentemente"</item>
+        <item>"3 - Sou eu!"</item>
+    </string-array>
+    <string-array name="estavel">
+        <item>"Selecione"</item>
+        <item>"0 - Nada"</item>
+        <item>"1 - As vezes"</item>
+        <item>"2 - Frequentemente"</item>
+        <item>"3 - Sou eu!"</item>
+    </string-array>
+    <string-array name="respeito">
+        <item>"Selecione"</item>
+        <item>"0 - Nada"</item>
+        <item>"1 - As vezes"</item>
+        <item>"2 - Frequentemente"</item>
+        <item>"3 - Sou eu!"</item>
+    </string-array>
+    <string-array name="detalhista">
+        <item>"Selecione"</item>
+        <item>"0 - Nada"</item>
+        <item>"1 - As vezes"</item>
+        <item>"2 - Frequentemente"</item>
+        <item>"3 - Sou eu!"</item>
+    </string-array>
+    <string-array name="objetivos">
+        <item>"Selecione"</item>
+        <item>"0 - Nada"</item>
+        <item>"1 - As vezes"</item>
+        <item>"2 - Frequentemente"</item>
+        <item>"3 - Sou eu!"</item>
+    </string-array>
+    <string-array name="satisfazer">
+        <item>"Selecione"</item>
+        <item>"0 - Nada"</item>
+        <item>"1 - As vezes"</item>
+        <item>"2 - Frequentemente"</item>
+        <item>"3 - Sou eu!"</item>
+    </string-array>
+</resources>
